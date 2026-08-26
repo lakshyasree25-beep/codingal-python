@@ -1,0 +1,47 @@
+# PART 1: Ask for today's temperature
+temperature = int(input("What is today's temperature? (use °F, numbers only): "))
+
+# PART 2: Decide between a jacket and a t-shirt
+if temperature >= 60:
+    print("Wear a t-shirt.")
+elif temperature < 60:
+    print("Wear a jacket.")
+else:
+    print("Error.")
+
+# PART 3: Ask whether it is raining
+rain = input("Is it raining?: ")
+
+# PART 4: Add an umbrella reminder only if it is raining
+if rain == "yes":
+    print("Remember to take an umbrella.")
+elif rain == "no":
+    print("You don't need an umbrella.")
+else:
+    print("Error.")
+
+# PART 5: Ask for the wind speed
+wind_speed = int(input("What is the wind speed? (mph): "))
+
+# PART 6: Decide whether a windbreaker is needed
+if wind_speed >= 10:
+    print("Bring a windbreaker.")
+elif wind_speed < 10:
+    print("You do not need a windbreaker.")
+else:
+    print("Error.")
+
+# PART 7: Ask whether there are puddles on the ground
+puddles = input("Are there puddles outside?: ")
+
+# PART 8: Decide between boots and sneakers
+if puddles == "yes":
+    print("Use your boots.")
+elif puddles == "no":
+    print("You can wear your sneakers.")
+else:
+    print("Error.")
+
+# PART 9: This message always prints
+print("Have a great day!")
+# PART 10: Print the final outfit summary

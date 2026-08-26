@@ -1,0 +1,13 @@
+A Python program that tracks a farmer's harvest across 5 fields.
+field_1 = 100
+field_2
+field_3
+field_3
+field_4
+field_4
+field_5
+You will calculate the total and average yield,
+pack the harvest into 25 kg bags,
+find the leftover grain,
+compare this year's harvest with last year's,
+update the total with a bonus crop and seed reserve. 
