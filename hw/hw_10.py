@@ -1,0 +1,9 @@
+number = int(input("Enter a number: "))
+power = int(input("Enter the power: "))
+
+answer = 1
+
+for i in range(power):
+    answer = answer * number
+
+print("Answer:", answer)
