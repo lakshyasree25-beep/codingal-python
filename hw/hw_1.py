@@ -15,5 +15,4 @@ print("ID:", member_id)
 print("Score:", score)
 print("Events:", event_total)
 print("Active:", is_active)
-print("Badge:", badge.upper())
-print("Club Code:", club_code.upper())
+print("Badge:",
