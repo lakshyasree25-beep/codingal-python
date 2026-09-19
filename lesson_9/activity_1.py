@@ -12,13 +12,30 @@ serving=True
 while serving:
 #Step 3: Ask for the customer's name and withdrawal amount; if the amount is invalid, print a message and continue back to the top of the loop.
     name=input("name: ")
-    customer1=int (input ("withdrawl amount:"))
-    if customer1<=0:
+    amount=int (input ("withdrawl amount:"))
+    if amount <=0:
         print("invalid")
         continue
 #Step 4: Inside that same repeat, run an inner while loop that checks each of the six note values one at a time and works out how many of each note to dispense.
     a=1
-    while 
+    remaning=amount
+    while a<=6:
+        if a == 1:
+            value=100
+        elif a ==2:
+            value=50
+        elif a ==3:
+            value=20
+        elif a ==4:
+            value=10
+        elif a ==5:
+            value=5
+        else:
+            value=1
+        count= remaning//value
+        a+=1
+        if count>0:
+            remaning=remaning % value 
 #Step 5: Update the matching counter variable for whichever note value was just dispensed, then ask if there is a next customer, setting serving to False if not.
 
 #Step 6: Once the outer while loop ends, start an outer for loop stepping through each of the six note values to print the daily denomination report.
