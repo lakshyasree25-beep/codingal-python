@@ -9,10 +9,9 @@ is_active = True
 badge = name[0] + name[-1]
 club_code = club[0:3]
 
-print("Name:", name)
-print("Club:", club)
-print("ID:", member_id)
-print("Score:", score)
-print("Events:", event_total)
-print("Active:", is_active)
-print("Badge:",
+print("Name")
+print("Club")
+print("ID")
+print("Score")
+print("Events")
+print("Active")
