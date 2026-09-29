@@ -1,0 +1,7 @@
+secret=random(1,50)
+attempts=5
+guess=int
+if guess==secret:
+    print("Correct!")
+else:
+    print("Incorrect:)")
