@@ -1,17 +1,39 @@
-import keyword
+name = input("What is your name? ")
+club = input("What is your club? ")
 
-# Get information
-name = input("Name?")
-goal = input("Goal?")
-month = input("Target month?")
+number = 8
+points = 9.5
+events = 6
+active = True
 
-minutes = 30
+print("Name:", name)
+print("Club:", club)
+print("Number:", number)
+print("Points:", points)
+print("Events:", events)
+print("Active:", active)
 
-# Show goal plan
-print("PERSONAL GOAL")
-print("name:",name)
-print("goal:",goal)
-print("Target month:", month)
-print("Practice:",minutes, "a day")
+number = str(number)
+points = str(points)
+events = str(events)
 
-print("Status: Not Started")
+print("Number as text:", number)
+print("Points as text:", points)
+print("Events as text:", events)
+
+badge = name[:3] + name[-1]
+
+print("Badge:", badge)
+
+reverse = club[::-1]
+
+print("Club backwards:", reverse)
+
+print("===== CLUB BADGE =====")
+print("Name:", name)
+print("Badge:", badge)
+print("ID:", number)
+print("Points:", points)
+print("Events:", events)
+print("Active:", active)
+print("Club Code:", reverse)
