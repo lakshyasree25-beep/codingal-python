@@ -3,13 +3,13 @@ def greet_customer():
   print("Welcome to my lemanad stand")
 greet_customer()
 #Step 2: Ask for the price per cup and the number of cups sold.
-input ("what price of cup do you want: ")
-input ("how many cups do you want?")
-#Step 3: Define and call calculate_total() to return the total cost using arguments.\
+price=int(input ("what price of cup do you want: "))
+number_of_cups=int(input ("how many cups do you want?"))
+#Step 3: Define and call calculate_total() to return the total cost using arguments.
 def calculate_total(price, number_of_cups):
-  return price * number_of_cups
+  return (price * number_of_cups)
 #Step 4: Round the total using the built-in round() function and print it.
-
+total=calculate_total()
 #Step 5: Define and call calculate_change() to return the change due.
 def calculate_change(total, amount_paid):
   return amount_paid - total
@@ -18,6 +18,6 @@ def thank_you(name):
   print("Thank you",name)  
 #Step 7: Print the final lemonade stand receipt with every calculated value.
 print("===== LEMONADE STAND RECEIPT =====")
-print("Total:", total)
-print("Change:", calculate_change(total, input("Amount paid:")))
+print("Total:", total())
+print("Change:", calculate_change((total(), input("Amount paid:")))
 print("Thank you", name)
