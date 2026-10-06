@@ -9,7 +9,6 @@ while count < max_attempts and guess != secret:
 guess = int(input("Guess: "))
 count = count + 1
 
-```
 if guess == secret:
     print("You got it!")
 else:
